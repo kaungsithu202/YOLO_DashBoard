@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- bootstrap -->
+		<!-- <link rel="stylesheet" href="./css/bootstrap.min.css" /> -->
+		<!-- fav Icon -->
+		<link
+			rel="shortcut icon"
+			href="./images/yolo.png"
+			type="image/x-icon"
+		/>
+		<!-- remix icon -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+			rel="stylesheet"
+		/>
+		<!-- style.css -->
+
+		<link rel="stylesheet" href="./css/style.css" />
+
+		<title>YOLO accounting</title>
+	</head>
+	<body>
+		<div>
+			<div class="row g-0">
+				<!-- Sidebar  -->
+				<nav class="sidebar col-3 bg-white pe-3 border-end">
+					<div class="py-3 text-center text-primary mb-5">
+						<!-- <i class="ri-building-line"></i>
+                    <span class="d-none d-lg-inline">YOLO</span> -->
+						<img
+							class="img-fluid logo__img"
+							src="./images/yolo60.png"
+						/>
+					</div>
+					<div class="sidebar__item text-center text-lg-start">
+						<ul class="d-flex flex-column align-items-start">
+							<li class="mb-5 ">
+								<a
+									href="./index.html"
+									class="d-flex align-items-center justify-content-center"
+								>
+									<div class="active">
+										<i class="ri-dashboard-line sidebar__icon icon-50"></i>
+										<span class="ms-custom sidebar__text fs-custom"
+											>Dashboard</span
+										>
+									</div>
+								</a>
+							</li>
+							<li class="mb-5">
+								<a
+									href="./customer.html"
+									class="d-flex align-items-center justify-content-center"
+								>
+									<div>
+										<i class="ri-group-line icon-50"></i
+										><span class="ms-custom fs-custom">Customer</span>
+									</div>
+								</a>
+							</li>
+							
+
+								<li class="mb-5 dropdown-button me-5   ">
+									 <a
+										href=""
+										class="d-flex align-items-center justify-content-center">
+										<div class="dropdown w-25">
+											<a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+												<i class="ri-file-list-line icon-50"></i
+													><span class="fs-custom ms-custom selected">Invoices</span>
+											</a>
+										  
+											<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+											  <li><a class="dropdown-item" href="./invoices.html">All</a></li>
+											  <li><a class="dropdown-item" href="./invoiceMain.html">Main</a></li>
+											  <li><a class="dropdown-item" href="./invoiceDraft.html">Draft</a></li>
+											
+											</ul>
+										  </div>
+									</a>
+	
+									
+								</li>
+							
+							<li class="mb-5">
+								<a
+									href="./delivery.html"
+									class="d-flex align-items-center justify-content-center"
+								>
+									<div>
+										<i class="ri-truck-line icon-50"></i
+										><span class="fs-custom ms-custom">Delivery</span>
+									</div>
+								</a>
+							</li>
+							<li class="mb-5">
+								<a
+									href="./retrans.html"
+									class="d-flex align-items-center justify-content-center"
+								>
+									<div>
+										<i class="ri-arrow-go-back-line icon-50"></i
+										><span class="fs-custom ms-custom">Re/Trans</span>
+									</div>
+								</a>
+							</li>
+							<li class="mb-5">
+								<a
+									href="./products.html"
+									class="d-flex align-items-center justify-content-center"
+								>
+									<div>
+										<i
+											class="ri-shopping-basket-line sidebar-menu-icon icon-50"
+										></i
+										><span class="fs-custom ms-custom">Products</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<!-- Main Area -->
+				<main class="col-9 bg-light">
+					<!-- Navbar -->
+					<nav class="navbar navbar-expand-lg navbar-white bg-white">
+						<div class="flex-fill"></div>
+						<div class="navbar nav">
+							<a class="d-flex align-items-center justify-content-center me-5">
+								<i class="ri-user-line fs-2 me-3"></i>
+								<span class="fs-2">MR.YEKL</span>
+							</a>
+						</div>
+					</nav>
+					<!-- Card -->
+					<div class="container-fluid gx-3">
+						<div class="row mt-4">
+							<div class="col-md-3">
+								<div class="card" style="width: 200px; height: 150px">
+									<div
+										class="card-body d-flex flex-column align-items-center justify-content-center"
+									>
+										<h5 class="card-title">
+											<i class="ri-user-6-line me-5 fs-2"></i
+											><span class="fs-3 fw-bold">3,000</span>
+										</h5>
+										<h6 class="card-subtitle mt-3 text-muted fs-5">
+											Total Customer
+										</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card" style="width: 200px; height: 150px">
+									<div
+										class="card-body d-flex flex-column align-items-center justify-content-center"
+									>
+										<h5 class="card-title">
+											<i class="ri-line-chart-line fs-2 me-5"></i>
+											<span class="fs-3 fw-bold">50k+ </span>
+										</h5>
+										<h6 class="card-subtitle mt-3 text-muted fs-5">
+											Total Invoices
+										</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card" style="width: 200px; height: 150px">
+									<div
+										class="card-body d-flex flex-column align-items-center justify-content-center"
+									>
+										<h5 class="card-title">
+											<i class="ri-currency-line fs-2 me-5"></i>
+											<span class="fs-3 fw-bold">50k+</span>
+										</h5>
+										<h6 class="card-subtitle mt-3 text-muted fs-5">
+											Total Cashedin
+										</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card" style="width: 200px; height: 150px">
+									<div
+										class="card-body d-flex flex-column align-items-center justify-content-center"
+									>
+										<h5 class="card-title d-flex align-items-center">
+											<i class="ri-smartphone-line me-5 fs-2"></i>
+											<span class="fs-2 fw-bold">50k+</span>
+										</h5>
+										<h6 class="card-subtitle mt-3 text-muted fs-5">
+											Mobile Banking
+										</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row mt-4">
+							<div class="col-md-3">
+								<div class="card" style="width: 200px; height: 150px">
+									<div
+										class="card-body d-flex flex-column align-items-center justify-content-center"
+									>
+										<h5 class="card-title d-flex align-items-center">
+											<i class="ri-bank-card-line fs-2 me-5"></i
+											><span class="fs-3 fw-bold">1k+</span>
+										</h5>
+										<h6 class="card-subtitle mt-3 text-muted fs-5">
+											Receivables
+										</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-9">
+								<div class="chartBox">
+									<canvas id="myChart"></canvas>
+								</div>
+							</div>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+
+		<script src="./js/bootstrap.bundle.min.js"></script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/chart.js"
+		></script>
+		<script src="./js/chart.js">
+			// setup
+		</script>
+	</body>
+</html>

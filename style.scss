@@ -1,0 +1,40 @@
+$primary: #24a0ed;
+$success:#2ED47A;
+$light:#faf8f8;
+$secondary:#959692;
+
+@import './bootstrapscss/scss/bootstrap';
+@import './box';
+@import "./base";
+@import "./coffee";
+@import './invoices';
+@import './addForm';
+.form-width{
+    width: 95%;
+  
+}
+.pt-3-half {
+	padding-top: 1.4rem;
+  }
+main{
+	max-height:160vh ;
+  padding-bottom:50px ;
+  }
+.create-customer{
+    max-width: 95%;
+  }
+
+
+
+select:required:invalid {
+  color: rgb(255, 88, 88);
+}
+option[value="0"][disabled] {
+  display: none;
+ 
+}
+
+
+.ms-custom-two {
+	margin-right: 33px;
+}

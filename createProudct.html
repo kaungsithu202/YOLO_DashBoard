@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- BootStrap -->
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+		<!-- Data Table BS5 -->
+
+		<!-- fav Icon -->
+		<link
+			rel="shortcut icon"
+			href="./images/yolo.png"
+			type="image/x-icon"
+		/>
+		<!-- remix icon -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+			rel="stylesheet"
+		/>
+		<!-- style.css -->
+		
+
+		<link rel="stylesheet" href="./css/style.css" />
+
+		<title>YOLO accounting</title>
+	</head>
+	<body>
+		<div>
+			<div class="row g-0">
+				<nav class="sidebar col-3 bg-white pe-3 border-end">
+					<div class="py-3 text-center text-primary mb-5">
+						<!-- <i class="ri-building-line"></i>
+                    <span class="d-none d-lg-inline">YOLO</span> -->
+						<img
+							class="img-fluid logo__img"
+							src="./images/yolo60.png"
+						/>
+					</div>
+					<div class="sidebar__item text-center text-lg-start">
+						<ul class="d-flex flex-column align-items-start">
+							<li class="mb-5">
+								<a
+									href="./index.html"
+									class="d-flex align-items-center justify-content-center"
+								>
+									<div>
+										<i class="ri-dashboard-line sidebar__icon icon-50"></i>
+										<span class="ms-custom sidebar__text fs-custom"
+											>Dashboard</span
+										>
+									</div>
+								</a>
+							</li>
+							<li class="mb-5">
+								<a
+									href="./customer.html"
+									class="d-flex align-items-center justify-content-center"
+								>
+									<div>
+										<i class="ri-group-line icon-50"></i
+										><span class="ms-custom fs-custom">Customer</span>
+									</div>
+								</a>
+							</li>
+							
+							<li class="mb-5 dropdown-button me-5   ">
+								<a
+								   href=""
+								   class="d-flex align-items-center justify-content-center">
+								   <div class="dropdown w-25">
+									   <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+										   <i class="ri-file-list-line icon-50"></i
+											   ><span class="fs-custom ms-custom selected">Invoices</span>
+									   </a>
+									 
+									   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+										 <li><a class="dropdown-item" href="./invoices.html">All</a></li>
+										 <li><a class="dropdown-item" href="./invoiceMain.html">Main</a></li>
+										 <li><a class="dropdown-item" href="./invoiceDraft.html">Draft</a></li>
+									   
+									   </ul>
+									 </div>
+							   </a>
+
+							   
+						   </li>
+					   
+							<li class="mb-5">
+								<a
+									href="./delivery.html"
+									class="d-flex align-items-center justify-content-center"
+								>
+									<div>
+										<i class="ri-truck-line icon-50"></i
+										><span class="fs-custom ms-custom">Delivery</span>
+									</div>
+								</a>
+							</li>
+							<li class="mb-5">
+								<a
+									href="./retrans.html"
+									class="d-flex align-items-center justify-content-center"
+								>
+									<div>
+										<i class="ri-arrow-go-back-line icon-50"></i
+										><span class="fs-custom ms-custom">Re/Trans</span>
+									</div>
+								</a>
+							</li>
+							<li class="mb-5">
+								<a
+									href=""
+									class="d-flex align-items-center justify-content-center"
+								>
+									<div class="active">
+										<i
+											class="ri-shopping-basket-line sidebar-menu-icon icon-50"
+										></i
+										><span class="fs-custom ms-custom">Products</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<main class="col-9 bg-light">
+					<nav class="navbar navbar-expand-lg navbar-white bg-white">
+						<div class="flex-fill"></div>
+						<div class="navbar nav">
+							<a class="d-flex align-items-center justify-content-center me-5">
+								<i class="ri-user-line fs-2 me-3"></i>
+								<span class="fs-2">MR.YEKL</span>
+							</a>
+						</div>
+					</nav>
+					<div class="container  bg-white create-customer mt-4 pt-4 ">
+                    <div class="row">
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="./images/product64px.png " class="ms-5" > 
+                            <span class=" fs-3 ms-3">Create Product</span>
+                        </div>
+                    </div>
+            
+                   
+                    <form>
+                    <div class="row ms-4 mt-5 ">
+                          
+                              <div class="col-md-5">
+                                <input type="text" class="form-control" placeholder="Item Name">
+                              </div>
+                              <div class="col-md-5">
+                                <input type="number" class="form-control" placeholder="Rate">
+                              </div>
+                           
+                        
+
+                    </div>
+                    <!-- <div class="row ms-4 mt-5">
+                          
+                              <div class="col-md-5">
+                                <input type="email" class="form-control" placeholder="Email Adress">
+                              </div>
+                         
+                                <div class="form-group col-md-5">
+                               
+                                    <select id="inputState" class="form-select">
+                                   
+                                      <option value="0" disabled selected  >City</option>
+                                      <option value="1">Mandalay</option>
+                                      <option value="2">Pathein</option>
+                                    </select>
+                                    
+                                  </div>
+                              
+                           
+                        
+
+                    </div> -->
+					<!-- Township and Adress -->
+                    <!-- <div class="row ms-4 mt-5">
+                                <div class="form-group col-md-5">
+                                    <select required id="inputState" class="form-select">
+                                      <option value="0" disabled selected>TownShip</option>
+                                      <option value="1">Ahlone</option>
+                                      <option value="2">KyeeMyintDine</option>
+                                      <option value="3">Sanchung</option>
+                                    </select>
+                                  </div>
+								  <div class="form-group col-md-5">
+								
+									<textarea class="form-control pb-5" placeholder="Adress"></textarea>
+								  </div> -->
+                              
+                           
+                        
+<!-- 
+                    </div> -->
+					<!-- Save Button -->
+					<div class="row ms-4 mt-5">
+						
+						<div class=" d-flex align-items-center justify-content-end col-md-10  ">
+
+							<button
+							type="submit"
+							class="btn btn-primary px-5 py-2 btn-custom ms-3 text-white  "
+						>
+						   Save
+						</button>
+						</div>
+					</div>
+                </form>
+                       
+                     
+
+                    </div>
+				</main>
+			</div>
+		</div>
+		<!-- bootstrap -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+		<!-- main js -->
+		<script src="./script.js"></script>
+	</body>
+</html>
